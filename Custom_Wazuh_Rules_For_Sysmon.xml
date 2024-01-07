@@ -1,0 +1,165 @@
+<!-- Log Sysmon Alerts --> 
+
+<group name="sysmon"> 
+
+<rule id="101100" level="5"> 
+
+<if_sid>61650</if_sid> 
+
+<description>Sysmon - Event 22: DNS Query.</description> 
+
+<options>no_full_log</options> 
+
+</rule> 
+
+<rule id="101101" level="5"> 
+
+<if_sid>61603</if_sid> 
+
+      <options>no_full_log</options> 
+
+<description>Sysmon - Event 1: Process creation.</description> 
+
+</rule> 
+
+<rule id="101102" level="5"> 
+
+<if_sid>61604</if_sid> 
+
+      <options>no_full_log</options> 
+
+<description>Sysmon - Event 2: A process changed a file creation time.</description> 
+
+</rule> 
+
+<rule id="101103" level="5"> 
+
+<if_sid>61605</if_sid> 
+
+      <options>no_full_log</options> 
+
+<description>Sysmon - Event 3: Network connection.</description> 
+
+</rule> 
+
+<rule id="101104" level="5"> 
+
+<if_sid>61606</if_sid> 
+
+      <options>no_full_log</options> 
+
+<description>Sysmon - Event 4: Sysmon service state changed.</description> 
+
+</rule> 
+
+<rule id="101105" level="5"> 
+
+<if_sid>61607</if_sid> 
+
+      <options>no_full_log</options> 
+
+<description>Sysmon - Event 5: Process terminated.</description> 
+
+</rule> 
+
+<rule id="101106" level="5"> 
+
+<if_sid>61608</if_sid> 
+
+      <options>no_full_log</options> 
+
+<description>Sysmon - Event 6: Driver loaded.</description> 
+
+</rule> 
+
+<rule id="101107" level="5"> 
+
+<if_sid>61609</if_sid> 
+
+      <options>no_full_log</options> 
+
+<description>Sysmon - Event 7: Image loaded.</description> 
+
+</rule> 
+
+<rule id="101108" level="5"> 
+
+<if_sid>61610</if_sid> 
+
+      <options>no_full_log</options> 
+
+<description>Sysmon - Event 8: CreateRemoteThread.</description> 
+
+</rule> 
+
+<rule id="101109" level="5"> 
+
+<if_sid>61611</if_sid> 
+
+      <options>no_full_log</options> 
+
+<description>Sysmon - Event 9: RawAccessRead.</description> 
+
+</rule> 
+
+<rule id="101110" level="5"> 
+
+<if_sid>61612</if_sid> 
+
+      <options>no_full_log</options> 
+
+<description>Sysmon - Event 10: ProcessAccess.</description> 
+
+</rule> 
+
+<rule id="101111" level="5"> 
+
+<if_sid>61613</if_sid> 
+
+      <options>no_full_log</options> 
+
+<description>Sysmon - Event 11: FileCreate.</description> 
+
+</rule> 
+
+<rule id="101112" level="5"> 
+
+<if_sid>61614</if_sid> 
+
+      <options>no_full_log</options> 
+
+<description>Sysmon - Event 12: RegistryEvent (Object create and delete).</description> 
+
+</rule> 
+
+<rule id="101113" level="5"> 
+
+<if_sid>61615</if_sid> 
+
+      <options>no_full_log</options> 
+
+<description>Sysmon - Event 13: RegistryEvent (Value Set).</description> 
+
+</rule> 
+
+<rule id="101114" level="5"> 
+
+<if_sid>61616</if_sid> 
+
+      <options>no_full_log</options> 
+
+<description>Sysmon - Event 14: RegistryEvent (Key and Value Rename).</description> 
+
+</rule> 
+
+<rule id="101115" level="5"> 
+
+<if_sid>61617</if_sid> 
+
+      <options>no_full_log</options> 
+
+<description>Sysmon - Event 15: FileCreateStreamHash.</description> 
+
+</rule> 
+
+</group> 
